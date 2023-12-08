@@ -1,0 +1,49 @@
+/* * extra small devices(phones,600px and down) */ 
+
+ @media only screen and (max-width:600px) and (min-width:300px){
+
+    .container2 img{
+        width:300px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        /* margin-bottom: 50px; */
+        
+    }
+
+    .header2{
+
+        margin-top: 150px;
+        
+    }
+
+
+    .code h1{
+        font-size:20px;
+      display: inline-flex; 
+        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    }
+
+
+      /* .code br{
+        display: flex;
+        align-items: center;
+      } */
+
+    .training p{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+
+    .container2 button{
+        width:50px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+
+}
