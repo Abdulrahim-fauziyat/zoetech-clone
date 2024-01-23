@@ -1,31 +1,18 @@
-body{
-background-color:rgb(158, 211, 104);
--webkit-text-size-adjust: 100%;
--webkit-text-size-highlight-color:transparent;
-/* transition: all ease-in-out 0.3s;
-position: relative;
-animation-name:none;
-animation-duration: running;
-animation-timing-function: linear;
-animation-delay: 1s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-timing-function: ease;
-animation-play-state: running;
- */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
 
 }
 
+body{
+background-color:rgb(158, 211, 104); 
+-webkit-text-size-highlight-color:transparent;
 
-
-
-
-/* @keyframes mymove {
-from {bottom: 0px;}
-to {Top: 100px;}
-} */
-
-/* navigations begins */
+}
 .logo{
 display: flex;
 margin: 30px 10px 30px 10px;
@@ -50,8 +37,9 @@ font-size: 14px;
 .logo{
 position: fixed;
 width: 100%;
+height: 50px;
 top:0;
-/* z-index:1000; */
+z-index:4000; 
 background-color:rgb(158, 211, 104);
 }
 
@@ -94,7 +82,8 @@ height: 40px;
  li:hover{
   text-decoration: #fff  underline ;
   text-underline-position: below;
-  touch-action: manipulation;
+  /* touch-action: manipulation; */
+  pointer-events: cursor;
   
  }
 
@@ -279,10 +268,10 @@ font-weight: 700;
 font-family: "poppins", sans-serif;
 
 }
-
+/* font size-25px */
 .training p{
 color: #fff;
-font-size: 25px;
+font-size: clamp(1rem,3vh,1rem);
 margin-top: 2px;
 font-family: "poppins", sans-serif;
 
@@ -433,10 +422,10 @@ align-items: center;
 } 
 
 
-.statistical h2{
+.client h2{
 font-size: 55px;
 font-weight: 800;
-margin-bottom: 0px;
+margin-top: 10px;
 font-family: "poppins"sans-serif;
   color: #fff;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -1583,7 +1572,7 @@ font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
   background-color: rgb(188, 230, 20);
   color:#fff;
  }
-m
+
 
   .footer-note-flex span{
     color: #fff;
